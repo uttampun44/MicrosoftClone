@@ -1,0 +1,204 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* navbar */
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    }
+
+    /* media query navbar */
+    @media(max-width: 1200px){
+        .navbar{
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    /* nav div */
+   .nav{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-left: 150px;
+   }
+   /* nav div media query */
+   @media (max-width: 1024px){
+       .nav{
+           display: block;
+           width: fit-content;
+           height: auto;
+           
+       }
+   } 
+    .nav-img img{
+        width: 120px;
+        height: 70px;
+        margin-left: 50px;
+        margin-bottom: 30px;
+    }
+    @media (max-width: 1200px){
+        .nav-img img{
+            display: block;
+            width: 100%;
+            height: auto;
+
+        }
+    } 
+    .nav-list{
+         width: auto;
+         height: auto;
+         display: flex;
+         flex-wrap: wrap;
+         padding: 0%;
+         margin-left: 20px;
+        
+        ul{
+            display: flex;
+            align-items: center;
+        }
+        li{
+            list-style: none;
+        }
+        
+        a{
+            text-decoration: none;
+            margin: 10px;
+            font-size: 16px;
+            font-weight: lighter;
+            font-family: 'Times New Roman', Times, serif;
+            color: black;
+            
+        }
+        
+    }
+    
+    @media (min-width: 200px)and(max-width: 700px){
+        .nav-list ul{
+            display: block;
+            width: fit-content;
+            height: auto;
+            margin-right: 250px;
+        
+        }
+    } 
+
+    /* nabar close */ 
+
+
+    .login-and-sign{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin-right: 150px;
+        gap: 20px;
+        height: auto;
+        width: auto;
+        text-decoration: none;
+        padding: 10px;
+        .login-part a{
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: lighter;
+            color: black;
+        }
+         .login-part i{
+           font-size: 11px;
+         }
+    
+    }
+    @media(max-width: 1200px){
+        .login-and-sign label{
+            display: block;
+            width: fit-content;
+            height: auto;
+        }
+    }
+
+    @media(max-width: 700px){
+        .login-and-sign label{
+            display: block;
+            width: fit-content;
+            height: auto;
+            text-align: center;
+        }
+    }
+
+    /* section main-microsoft-titles */
+    .main-microsoft-titles{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 97em;
+        height: auto;
+        background-color: rgb(233, 233, 233);
+        margin-left: 13em;
+        
+         h1{
+             font-size: 30px;
+             font-weight: bolder;
+         }p{
+             font-size: 20px;
+         }
+         a{
+            font-size: 25px;
+            text-decoration: none;
+            margin-left: 0px;
+            color: rgb(0, 0, 0);
+            text-align: center;
+        }
+       button{
+        background-color: black;
+        width: 200px;
+        height: 50px;
+       }
+        #order-now{
+          color: white;
+           font-size: 18px;
+           text-align: center;
+        }
+       
+    }
+
+    /*surface -pro div */
+    .surface-pro{
+        width: auto;
+        height: auto;
+    }
+    /* window laptop images */
+    .window-laptop-images{
+        max-width: fit-content;
+        max-height: fit-content;
+               img{
+          width: 700px;
+          height: 600px;
+          object-fit: fill;
+    }
+}
+    @media(min-width:300px) and(max-width: 1500px){
+        .main-microsoft-titles{
+          display: block;
+          width: 100%;
+          height: auto;
+        }
+    }
+    
