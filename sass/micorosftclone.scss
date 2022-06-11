@@ -125,10 +125,11 @@ html{
     
     }
     @media(max-width: 1200px){
-        .login-and-sign label{
+        .login-and-sign label {
             display: block;
             width: fit-content;
             height: auto;
+            text-align: centers;
         }
     }
 
@@ -148,10 +149,12 @@ html{
         justify-content: space-around;
         align-items: center;
         flex-wrap: wrap;
-        max-width: 97em;
+        width: auto;
+        margin-right: 170px;
         height: auto;
         background-color: rgb(233, 233, 233);
         margin-left: 13em;
+        padding: 20px;
         
          h1{
              font-size: 30px;
@@ -184,6 +187,14 @@ html{
         width: auto;
         height: auto;
     }
+    @media(max-width: 1000px){
+        .surface-pro{
+            width: auto;
+            height: auto;
+            display: block;
+            padding-left: 20px;
+        }
+    }
     /* window laptop images */
     .window-laptop-images{
         max-width: fit-content;
@@ -197,8 +208,16 @@ html{
     @media(min-width:300px) and(max-width: 1500px){
         .main-microsoft-titles{
           display: block;
-          width: 100%;
+          width: auto;
           height: auto;
+        }
+    }
+    @media(min-width:200px) and (max-width: 860px){
+        .window-laptop-images{
+            display: block;
+            width: 300px;
+            height: auto;
+            
         }
     }
     
