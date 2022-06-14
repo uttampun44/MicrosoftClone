@@ -1,0 +1,129 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  scroll-behavior: smooth;
+  background-repeat: no-repeat;
+  background: #020024;
+  background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(35%, #690979), to(#00e4ff));
+  background: linear-gradient(90deg, #020024 0%, #690979 35%, #00e4ff 100%);
+  background-size: cover;
+}
+
+.form-sections {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: auto;
+  height: auto;
+}
+
+h1 {
+  color: whitesmoke;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 760px) {
+  .form-sections {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.form-parent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: auto;
+  width: auto;
+}
+
+.form-parent h1 {
+  color: white;
+}
+
+@media screen and (max-width: 760px) {
+  .form-parent {
+    display: block;
+  }
+  .form-parent form {
+    display: block !important;
+    width: 100%;
+    height: auto;
+  }
+}
+
+input {
+  width: 400px;
+  height: 50px;
+  border-radius: 10px 10px;
+  text-align: center;
+  font-size: 15px;
+}
+
+label {
+  color: white;
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#select {
+  width: 150px;
+  height: 30px;
+  border-radius: 5px 5px white;
+}
+
+#submit {
+  width: 200px;
+  background: green;
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-size: 20px;
+}
+/*# sourceMappingURL=signup.css.map */

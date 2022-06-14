@@ -4,9 +4,86 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./sass/signup.css">
     <title>Signup</title>
 </head>
 <body>
     
+ <main>
+  <section class="form-sections">
+    <h1>Sign Up</h1>
+     <div class="forms-parent">
+        <form action="../Login/login.html">
+            <label>First Name</label>
+            <br>
+            <input type="text" placeholder="enter your first name" required id="firstname">
+            <br>
+            <br>
+            <label>Last Name</label>
+            <br>
+            <input type="text" placeholder="enter your last name" required id="lastname">
+            <br>
+            <br>
+            <label>Password</label>
+            <br>
+            <input type="password" placeholder="enter password" required id="password" >
+            <p id="para_password"></p>
+            <br>
+            <label>Retype Password</label>
+            <br>
+            <input type="password" placeholder="retype password" required id="retypepassword" >
+            <br>
+            <br>
+            <p id="para_retypepassword"></p>
+            <label>Email</label>
+            <br>
+            <input type="email" placeholder="enter your email" required id="email">
+            <br>
+            <br>
+            <label>Address</label>
+            <br>
+            <input type="text" placeholder="enter your address" required id="address">
+            <br>
+            <br>
+            <label>Phone Number</label>
+            <br>
+            <input type="text" placeholder="enter your phone number" required id="phonenumber">
+            <br>
+            <br>
+            <select id="select">
+                <option>Male</option>
+                <option>Female</option>
+            </select>
+            <br>
+            <br>
+            <input type="submit" id="submit" onclick="formsubmit()">
+       </form>
+       <br>
+       <a href="../Login/login.html">Login In</a>
+     </div>
+  </section>
+ </main>
+
+ <script>
+
+function formsubmit(){
+
+let password = document.getElementById('password').value;
+let retypepassword = document.getElementById('retypepassword').value;
+let button = document.getElementById('submit').value;
+
+ if(password == retypepassword){
+    return true; 
+    }else{
+        document.getElementById('para_retypepassword').innerHTML = "password are not matching";
+        document.getElementById('para_retypepassword').style.color = "red";
+        document.getElementById('para_retypepassword').focus();
+        return false;
+    }
+ 
+}
+
+
+ </script>
 </body>
 </html>

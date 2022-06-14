@@ -1,0 +1,99 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  scroll-behavior: smooth;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background: #0a9f6e;
+  background: -webkit-gradient(linear, left top, right top, color-stop(7%, #0a9f6e), color-stop(35%, #096b79), to(#c10746));
+  background: linear-gradient(90deg, #0a9f6e 7%, #096b79 35%, #c10746 100%);
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: auto;
+  height: auto;
+  margin-top: 200px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.forms {
+  width: auto;
+  height: auto;
+  background-color: whitesmoke;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px;
+  border: 10px solid white;
+  border-radius: 20px;
+}
+
+input {
+  width: auto;
+  height: auto;
+  outline: none;
+  border: 2px solid silver;
+  border-radius: 5px 5px;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  background: #075c07;
+  color: white;
+  border-color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+i {
+  font-size: 100px;
+  text-shadow: 10px 5px 10px #747474;
+}
+
+label {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+a {
+  text-decoration: none;
+  color: #9d68cf;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 400px) {
+  section {
+    display: block !important;
+  }
+}
+/*# sourceMappingURL=login.css.map */
