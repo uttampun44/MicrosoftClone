@@ -3,10 +3,13 @@
     margin: 0%;
     box-sizing: border-box;
     overflow-x: hidden;
+ 
 }
 html{
     scroll-behavior: smooth;
+   
 }
+
 
 /* navbar */
 .navbar{
@@ -147,6 +150,7 @@ html{
     .main-microsoft-titles{
       width: auto;
       height: auto;
+ 
     }
     .microsoft-titles{
         display: flex;
@@ -203,14 +207,14 @@ html{
           object-fit: fill;
     }
 }
-@media(min-width:300px) and(max-width: 1000px){
+@media (min-width:300px) and(max-width: 1000px){
     .main-microsoft-titles{
       width: auto;
       height: auto;
     
     }
 }
-@media(min-width:300px) and(max-width: 1000px){
+@media (min-width:300px) and(max-width: 1000px){
     .microsoft-titles{
       display: block !important;
        width: 100%;
